@@ -26,7 +26,7 @@ class HollowRectangle {
                 // cells -->> ( i , j )
                 // logic lagana hai boundary condition ke liye jo tumne find ki hai [ i=1 , i=n , j=1 , j=m ]
                 if (i == 1 || j == 1 || i == n || j == m) {
-                    System.out.print("*"); // yeh star print ho jayega-- println nahi lagega--> same line main print karna hai 
+                    System.out.print("*"+" "); // yeh star print ho jayega-- println nahi lagega--> same line main print karna hai 
                 } else {
                     System.out.print(" ");  // Yeh space print karwane ke liye hai.. -- Right side main lane ke liye 
                 }

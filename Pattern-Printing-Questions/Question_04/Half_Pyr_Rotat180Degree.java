@@ -1,6 +1,6 @@
-// Inverted Pyramid First logic
+// Half Pyramid Rotate-180-degree First logic
 
-// class InvertedPyramidRotat180Degree {
+// class Half_Pyr_Rotat180Degree {
 //     public static void main(String[] args) {
 //         // declaire variable
 //         int n = 4;
@@ -19,12 +19,16 @@
 //         }
 //     }
 // }
-// Second Logic to solve or print Inverted half Pyramid rotate 180 degree
-class InvertedPyramidRotat180Degree {
+// Second Logic to solve or print half Pyramid rotate 180 degree
+import java.util.Scanner;
+
+class Half_Pyr_Rotat180Degree {
 
     public static void main(String[] args) {
-        // declaire variable
-        int n = 5; // n= number of rows
+        Scanner sc = new Scanner(System.in);
+        // User input 
+        System.out.print("Enetr number of rows 'n' : ");
+        int n = sc.nextInt(); // n=5
         // outer -loop
         for (int i = 1; i <= n; i++) {
             // first inner loop -- Print spaces only
